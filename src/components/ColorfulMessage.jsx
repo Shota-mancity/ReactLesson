@@ -1,7 +1,6 @@
 import React from "react";
 
 const ColorfulMessage = (props) => {
-  console.log(props);
   const { color, message, children } = props;
   const contentStyle = {
     color,
